@@ -35,9 +35,18 @@
                         <action selector="menuButtonClicked:" destination="-1" eventType="touchUpInside" id="fHV-gx-MHt"/>
                     </connections>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J9P-dk-RDt">
+                    <rect key="frame" x="87" y="22" width="1" height="65"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="6cc-JU-yDM"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="J9P-dk-RDt" firstAttribute="centerY" secondItem="DCp-w7-T03" secondAttribute="centerY" id="AbJ-Cf-SqA"/>
+                <constraint firstItem="J9P-dk-RDt" firstAttribute="height" secondItem="DCp-w7-T03" secondAttribute="height" id="PsG-t7-M4n"/>
                 <constraint firstItem="DCp-w7-T03" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1:1" id="T2U-s6-50p"/>
                 <constraint firstItem="DCp-w7-T03" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="b03-cO-Pgt"/>
                 <constraint firstAttribute="bottom" secondItem="q2e-pr-5Gx" secondAttribute="bottom" id="e6t-xa-Vy7"/>
@@ -45,9 +54,10 @@
                 <constraint firstItem="DCp-w7-T03" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="22" id="rWP-5c-1FF"/>
                 <constraint firstAttribute="bottom" secondItem="DCp-w7-T03" secondAttribute="bottom" id="sKC-c9-pjy"/>
                 <constraint firstItem="q2e-pr-5Gx" firstAttribute="centerY" secondItem="DCp-w7-T03" secondAttribute="centerY" id="txK-qM-xle"/>
+                <constraint firstItem="J9P-dk-RDt" firstAttribute="leading" secondItem="DCp-w7-T03" secondAttribute="trailing" id="vCx-JF-bRM"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="325" y="34.5"/>
+            <point key="canvasLocation" x="359" y="50.5"/>
         </view>
     </objects>
     <resources>
